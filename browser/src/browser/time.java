@@ -19,6 +19,7 @@ public class time {
 		double minang= min*6;
 		double diff=Math.abs(hrang-minang);
 		System.out.print("the difference between hour and clock hand is:"+ diff);
+		System.out.println();
 	}
 
 }
