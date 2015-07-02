@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33219" started-at="2015-06-30T06:56:10Z" finished-at="2015-06-30T06:56:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33219" started-at="2015-06-30T06:56:10Z" finished-at="2015-06-30T06:56:44Z">
+      <class name="com.qait.Test.Test1LaunchGoIndigo">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="LaunchBrowser" is-config="true" duration-ms="2849" started-at="2015-06-30T12:26:10Z" finished-at="2015-06-30T12:26:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="OpenWebsite()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="OpenWebsite" duration-ms="4702" started-at="2015-06-30T12:26:13Z" finished-at="2015-06-30T12:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method status="PASS" signature="EnterSourceCity()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="EnterSourceCity" duration-ms="339" started-at="2015-06-30T12:26:18Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.OpenWebsite" finished-at="2015-06-30T12:26:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterSourceCity -->
+        <test-method status="PASS" signature="EnterDestinationCity()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="EnterDestinationCity" duration-ms="495" started-at="2015-06-30T12:26:18Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.EnterSourceCity" finished-at="2015-06-30T12:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterDestinationCity -->
+        <test-method status="PASS" signature="EnterOriginDate()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="EnterOriginDate" duration-ms="1051" started-at="2015-06-30T12:26:19Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.EnterDestinationCity" finished-at="2015-06-30T12:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterOriginDate -->
+        <test-method status="PASS" signature="EnterReturnDate()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="EnterReturnDate" duration-ms="188" started-at="2015-06-30T12:26:20Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.EnterOriginDate" finished-at="2015-06-30T12:26:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterReturnDate -->
+        <test-method status="PASS" signature="SearchFlights()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="SearchFlights" duration-ms="3279" started-at="2015-06-30T12:26:20Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.EnterReturnDate" finished-at="2015-06-30T12:26:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchFlights -->
+        <test-method status="PASS" signature="SelectFlightAndContinue()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="SelectFlightAndContinue" duration-ms="2144" started-at="2015-06-30T12:26:23Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.SearchFlights" finished-at="2015-06-30T12:26:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFlightAndContinue -->
+        <test-method status="PASS" signature="ContactDetails()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="ContactDetails" duration-ms="756" started-at="2015-06-30T12:26:25Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.SelectFlightAndContinue" finished-at="2015-06-30T12:26:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactDetails -->
+        <test-method status="PASS" signature="PassengerDetails()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="PassengerDetails" duration-ms="7631" started-at="2015-06-30T12:26:26Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.ContactDetails" finished-at="2015-06-30T12:26:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PassengerDetails -->
+        <test-method status="PASS" signature="ProceedToSelectSeats()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="ProceedToSelectSeats" duration-ms="5612" started-at="2015-06-30T12:26:34Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.PassengerDetails" finished-at="2015-06-30T12:26:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProceedToSelectSeats -->
+        <test-method status="PASS" signature="ReviewBooking()[pri:0, instance:com.qait.Test.Test1LaunchGoIndigo@7d417077]" name="ReviewBooking" duration-ms="4149" started-at="2015-06-30T12:26:39Z" depends-on-methods="com.qait.Test.Test1LaunchGoIndigo.ProceedToSelectSeats" finished-at="2015-06-30T12:26:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ReviewBooking -->
+      </class> <!-- com.qait.Test.Test1LaunchGoIndigo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
