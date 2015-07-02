@@ -15,8 +15,8 @@ public class time {
 		int hour=Integer.parseInt(br.readLine());
 		System.out.println("Enter minutes(0<=min<=60):");
 		int min=Integer.parseInt(br.readLine());
-		double hrang= hour*60 + min*0.5;
-		double minang= min*12;
+		double hrang= hour*30 + min*0.5;
+		double minang= min*6;
 		double diff=Math.abs(hrang-minang);
 		System.out.print("the difference between hour and clock hand is:"+ diff);
 		System.out.println();
